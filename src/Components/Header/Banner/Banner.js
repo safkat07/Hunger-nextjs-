@@ -4,13 +4,13 @@ import bannerImage from '../../../../public/bannerImage.png'
 
 export default function Banner() {
     return (
-        <div className=" text-6xl flex justify-center bg-red-500 min-h-dvh pt-36">
-            <div className="flex relative flex-col text-[25vw] text-center  headingFont  justify-center items-center">
+        <div className=" text-6xl  flex justify-center  bg-red-600 md:min-h-dvh min-h-[60vh] pt-36">
+            <div className="flex relative flex-col md:text-[25vw] text-[26vw] text-center  headingFont  justify-center items-center">
                 <h1 className="leading-[18vw] inline">
                     Delicious <br />
                     Burger
                 </h1>
-                <div className='absolute '>
+                <div className='absolute xl:pt-[6vw] drop-shadow-2xl '>
                     <Image className='xl:w-3/4 mx-auto' src={bannerImage} />
                 </div>
             </div>
