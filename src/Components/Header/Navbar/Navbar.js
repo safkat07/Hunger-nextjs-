@@ -1,10 +1,19 @@
+"use client"
 
+import { useState } from "react";
 import { MdDialpad } from "react-icons/md";
 import { MdFormatAlignRight } from "react-icons/md";
 import { MdDehaze } from "react-icons/md";
+import { RiCloseLargeFill } from "react-icons/ri";
+
 
 
 export default function Navbar() {
+
+    const [open, setOpen] = useState(false)
+    const toggleSidebar = () => {
+        setOpen(!open)
+    }
     return (
         <nav className="bg-white xl:py-5 py-3 xl:mx-5 xl:rounded-full fixed    xl:top-5 left-0 right-0">
             <div className="px-10 flex items-center justify-between">
@@ -44,8 +53,14 @@ export default function Navbar() {
                     </button>
                 </div>
 
-                <div className="xl:hidden block text-3xl">
-                    <MdFormatAlignRight />
+                <div onClick={toggleSidebar} className="xl:hidden z-10 block text-3xl">
+                    <span>
+                        {open ? <RiCloseLargeFill /> : <MdFormatAlignRight />}
+                    </span>
+                </div>
+
+                <div className={`xl:hidden block w-[40%] top-0  fixed  bg-white  min-h-dvh transition-all duration-500 ${open ? "right-0" : "-right-full"}`}>
+
                 </div>
             </div>
         </nav>
