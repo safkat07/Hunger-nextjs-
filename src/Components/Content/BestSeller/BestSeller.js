@@ -72,7 +72,7 @@ export default function BestSeller() {
         <Wrapper>
             <HeadingTitle headingTitle={"Bestsellers"} />
 
-            <div className='grid  pt-16 lg:grid-cols-3 grid-cols-1 gap-7 justify-center items-center  md:w-3/4 w-[90%] mx-auto'>
+            <div className='grid  pt-16 xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-7 justify-center items-center  md:w-3/4 w-[90%] mx-auto'>
                 {
                     bestSellersItems.map(item => <BestSellersCards key={item.id} {...item}></BestSellersCards>)
                 }
