@@ -15,7 +15,7 @@ export default function Navbar() {
         setOpen(!open)
     }
     return (
-        <nav className="bg-white z-10 xl:py-5 py-3 xl:mx-5 xl:rounded-full fixed    xl:top-5 left-0 right-0">
+        <nav className="bg-white z-[30] xl:py-5 py-3 xl:mx-5 xl:rounded-full fixed    xl:top-5 left-0 right-0">
             <div className="px-10 flex items-center justify-between">
                 <div className="flex  items-center gap-10">
                     <div>

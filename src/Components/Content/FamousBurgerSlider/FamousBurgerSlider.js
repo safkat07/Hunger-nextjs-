@@ -22,7 +22,7 @@ export default function FamousBurgerSlider() {
             className="mySwiper text-white bg-[#0D0E13] w-full"
         >
             <SwiperSlide>
-                <div className="flex md:flex-row flex-col-reverse items-center justify-center mx-auto w-[90%] 2xl:w-[80%]">
+                <div className="flex md:flex-row flex-col-reverse items-center justify-center mx-auto w-[90%]  py-10 2xl:w-[80%]">
                     <div className="text-center md:text-left mx-auto md:mx-0">
                         <p className="headingFont text-3xl md:text-7xl xl:text-8xl mb-4">
                             Worlds Famous Burger
