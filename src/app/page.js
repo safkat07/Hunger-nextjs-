@@ -1,6 +1,7 @@
 "use client"
 import BestSeller from "@/Components/Content/BestSeller/BestSeller";
 import FamousBurgerSlider from "@/Components/Content/FamousBurgerSlider/FamousBurgerSlider";
+import FreeDelivery from "@/Components/Content/FreeDelivery/FreeDelivery";
 import Banner from "@/Components/Header/Banner/Banner";
 import Navbar from "@/Components/Header/Navbar/Navbar";
 import { useEffect } from "react";
@@ -23,6 +24,7 @@ export default function Home() {
       <Banner />
       <BestSeller />
       <FamousBurgerSlider />
+      <FreeDelivery />
     </div>
   );
 }
