@@ -1,18 +1,20 @@
+"use client"
+
 import React from 'react';
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-import 'leaflet/dist/leaflet.css';
-import L from 'leaflet';
+// import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+// import 'leaflet/dist/leaflet.css';
+// import L from 'leaflet';
 
 
-const customIcon = new L.Icon({
-    iconUrl: 'https://leafletjs.com/examples/custom-icons/leaf-red.png',
-    iconSize: [38, 95],
-    iconAnchor: [22, 94],
-    popupAnchor: [-3, -76],
-    shadowUrl: 'https://leafletjs.com/examples/custom-icons/leaf-shadow.png',
-    shadowSize: [50, 64],
-    shadowAnchor: [4, 62],
-});
+// const customIcon = new L.Icon({
+//     iconUrl: 'https://leafletjs.com/examples/custom-icons/leaf-red.png',
+//     iconSize: [38, 95],
+//     iconAnchor: [22, 94],
+//     popupAnchor: [-3, -76],
+//     shadowUrl: 'https://leafletjs.com/examples/custom-icons/leaf-shadow.png',
+//     shadowSize: [50, 64],
+//     shadowAnchor: [4, 62],
+// });
 
 const center = [40.7128, -74.0060];
 
@@ -38,7 +40,7 @@ const LocationAndMaps = () => {
                     </div>
                 </div>
             </div>
-            <MapContainer
+            {/* <MapContainer
                 center={center}
                 zoom={15}
                 className="map-container"
@@ -52,7 +54,7 @@ const LocationAndMaps = () => {
                         Hunger<br />60 East 65th Street, New York.
                     </Popup>
                 </Marker>
-            </MapContainer>
+            </MapContainer> */}
         </div>
     );
 }

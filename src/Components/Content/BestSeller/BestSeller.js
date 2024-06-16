@@ -1,3 +1,5 @@
+"use client"
+
 import BestSellersCards from '@/Components/UseableComponents/BestSellersCards'
 import HeadingTitle from '@/Components/UseableComponents/HeadingTitle'
 import Wrapper from '@/Components/UseableComponents/Wrapper'
