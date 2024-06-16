@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa6";
 export default function Footer() {
     return (
         <div className="h-auto pt-32 pb-5 mx-auto   w-full bg-red-500">
-            <div className="xl:max-w-7xl max-w-3xl mx-auto">
+            <div className="xl:max-w-7xl px-7 max-w-3xl mx-auto">
                 <h1 id="title" className="text-center text-[#F4E6C0] text-9xl">
                     Hunger
                 </h1>
