@@ -16,7 +16,7 @@ export default function BestSellersCards({
                     {name}
                 </h1>
                 <div className=' transition-all duration-500'>
-                    <Image src={imageSrc} />
+                    <Image src={imageSrc} alt='sellerimg' />
                 </div>
 
                 <div className='flex justify-between items-center'>

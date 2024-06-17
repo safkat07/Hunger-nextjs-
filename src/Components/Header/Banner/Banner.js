@@ -4,7 +4,7 @@ import bannerImage from '../../../../public/bannerImage.png'
 
 export default function Banner() {
     return (
-        <div className=" text-6xl  flex justify-center  bg-red-600 md:min-h-dvh min-h-[40vh] pt-28">
+        <div id='home' className=" text-6xl  flex justify-center  bg-red-600 md:min-h-dvh min-h-[40vh] pt-28">
             <div className="flex relative flex-col md:text-[25vw] text-[26vw] text-center  headingFont  justify-center items-center">
                 <h1 className="leading-[18vw] z-[10] inline">
                     Delicious <br />
